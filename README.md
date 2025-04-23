@@ -18,18 +18,15 @@ git clone https://github.com/Marc-Jr/mini-async-runtime.git
 cd mini-async-runtime
 cargo build
 ```
-
 
 Run the exampe:
 
 ```bash
 cargo run
 ```
-
 
 ## Example Output
 
-
 ```text
 Runtime started...
 task one: start
