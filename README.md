@@ -2,24 +2,23 @@
 A minimal single-threaded async runtime in Rust.
 
 ## About
-This project is an educational implementation of a lightweight asynchronous runtime in Rust .It demonstrates the fundamentals of task scheduling and execution within a single thread, providing a hands-on understanding of how asynchronous runtimes operate under the hood
+This project is an educational implementation of a lightweight asynchronous runtime in Rust .It demonstrates the fundamentals of task scheduling and execution within a single thread, providing a hands-on understanding of how asynchronous runtimes operate under the hood
 
 ## Features
 
-- **Single-threaded Execution** Designed to run on a single thread, making it ideal for embedded systems or learning environment.
-- **Task Scheduling** Manages and schedules asynchronous tasks efficientl.
-- **Minimal Dependencies** Built with a focus on simplicity and minimalism, avoiding unnecessary dependencie.
+- **Single-threaded Execution** Designed to run on a single thread, making it ideal for embedded systems or learning environment.
+- **Task Scheduling** Manages and schedules asynchronous tasks efficientl.
+- **Minimal Dependencies** Built with a focus on simplicity and minimalism, avoiding unnecessary dependencie.
 
 ## Installation
 
-Clone the repository and build the project using Cargo:
-
+Clone the repository and build the project using Cargo:
 
 ```bash
 git clone https://github.com/Marc-Jr/mini-async-runtime.git
 cd mini-async-runtime
 cargo build
-``
+```
 
 
 Run the exampe:
@@ -39,7 +38,7 @@ task one: start
 task two: start
 task one: done [~1s]
 task two: done [~2s]
-``
+```
 
 
 ## 📚 Learning Resources
