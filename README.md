@@ -12,8 +12,7 @@ This project is an educational implementation of a lightweight asynchronous runt
 
 ## Installation
 
-Clone the repository and build the project using Cargo:
-
+Clone the repository and build the project using Cargo:
 ```bash
 git clone https://github.com/Marc-Jr/mini-async-runtime.git
 cd mini-async-runtime
@@ -21,15 +20,14 @@ cargo build
 ```
 
 
-Run the exampe:
+Run the exampe:
 
-
 ```bash
 cargo run
-``
+```
 
 
-## 🧪 Example Output
+## Example Output
 
 
 ```text
@@ -39,15 +37,13 @@ task two: start
 task one: done [~1s]
 task two: done [~2s]
 ```
-
-
 ## 📚 Learning Resources
 
-For a deeper understanding of how asynchronous runtimes work, consider exploring:
+For a deeper understanding of how asynchronous runtimes work, consider exploring:
 
-- [What is an executor?](https://brianshih1.github.io/mini-async-runtime/executor/intro.htl): An in-depth look at the role of executors in asynchronous programing.
-- [Writing a small async runtime for Cortex-M micro-controllers with Rust](https://www.ashwinnarayan.com/post/embedded-async-with-rus/): A practical guide to building an async runtime for embedded sysems.
+- [What is an executor?](https://brianshih1.github.io/mini-async-runtime/executor/intro.htl): An in-depth look at the role of executors in asynchronous programing.
+- [Writing a small async runtime for Cortex-M micro-controllers with Rust](https://www.ashwinnarayan.com/post/embedded-async-with-rus/): A practical guide to building an async runtime for embedded sysems.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repository, submit issues, or open pull reqests.
+Contributions are welcome! Feel free to fork the repository, submit issues, or open pull reqests.
